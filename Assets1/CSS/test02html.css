@@ -1,0 +1,103 @@
+@font-face{
+    font-family: "Gilda";
+    src: url("../Fonts/Gilda_Display/GildaDisplay-Regular.ttf");
+}
+*{
+ font-family: 'Gilda';
+ color: #d8be77;
+}
+.BFC{
+    color:#d8be77 !important ;
+}
+.navbarImg{
+    width: 50px;
+    height: 50px;
+}
+.BgImg{
+    background-image: url(../images/background1.jpg);
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+.logoMain{
+    width: 200px;
+    height: 200px;
+    border-bottom: 6px;
+}
+.buttonsPadding{
+    padding: 10rem 0rem 10rem 0rem;
+}
+.buttons1{
+    width: 10rem;
+    background-color: #d8be77 !important;
+}
+.buttons1:hover{
+    background-color: inherit !important;
+}
+.buttons2{
+    width: 10rem;
+    background-color: inherit !important;
+    border: 1px solid  #d8be77;
+}
+.buttons2:hover{
+    background-color: #d8be77 !important;
+}
+.BgBilders{
+    background-image: linear-gradient(#070707,#6b6b6b);
+}
+.cardBg{
+    background-color: inherit !important;
+}
+.BildersImg{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.BgCards{
+    background-color: white;
+}
+.cardsBorder{
+    border: 1px solid #d8be77;
+}
+.cardBilder{
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.cardsBorder:hover, .BgPricelist:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.cardsBorder:hover, .card:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    background-color: white;
+}
+.BgPricelist{
+    background-color: grey;
+    transition: .3s;
+
+}
+.spanButton{
+    position: absolute;
+    bottom: -1rem;
+}
+.button{
+    background-color: #d8be77 !important;
+
+}
+.formLeft{
+    background-color: #d7d7d7;
+}
+.Numbers{
+    color: black !important;
+}
+@media(max-width:580px){
+    .Bonus{
+        align-content: flex-start;
+    }
+}
+.NewPage{
+    width: 100%;
+    height: 300px;
+}
